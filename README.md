@@ -21,6 +21,7 @@ valid :
         email,
         url,
         matches(^[BMD]\\d{7}$),
-		matches(^([0-3]\\.[0-9]{2}|4\\.00$)~,
+		matches(^([0-3]\\.[0-9]{2}|4\\.00)$)~,
         stringlength(10|10),
 		range(10|100)
+
